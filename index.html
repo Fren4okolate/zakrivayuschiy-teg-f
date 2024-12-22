@@ -346,17 +346,21 @@
     </article>
 
     <button class="button save-button" type="button" onclick="window['dialog'].showModal()" aria-controls="dialog">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-            <use href="./svg/floppy.svg#floppy"></use>
-        </svg>
-        <span class="button__text">Сохранить на память</span>
-    </button>
+        <svg
+            class="dialog__icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 39 39"
+          >
+            <use href="./svg/floppy.svg#save-icon"></use>
+          </svg>
+          <span class="button__text">Сохранить на память </span>
+        </button>
 
     <dialog id="dialog" class="dialog">
         <div class="dialog__content">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-                <use href="./svg/floppy.svg#floppy"></use>
-            </svg>
+            <svg class="modal__icon" viewBox="0 0 39 39">
+                <use href="./svg/floppy.svg#save-icon" />
+            </svg>      
             <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
         </div>
         <button class="button dialog__button" type="button" onclick="window['dialog'].close()">
