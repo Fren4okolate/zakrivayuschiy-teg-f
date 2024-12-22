@@ -1,3 +1,5 @@
+https://github.com/Fren4okolate/zakrivayuschiy-teg-f
+
 https://fren4okolate.github.io/zakrivayuschiy-teg-f/
 
 # zakrivayuschiy-teg-f
