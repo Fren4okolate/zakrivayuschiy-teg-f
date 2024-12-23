@@ -132,6 +132,10 @@
     margin: 25px;
 }
 
+.card__text {
+    line-height: 21px; 
+}
+
 .card__text:not(:first-of-type) {
     margin-block-start: 27px;
 }
