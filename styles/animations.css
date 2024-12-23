@@ -77,9 +77,9 @@
     animation: heart 0.3s ease-in 0.1s 1 alternate;
   }
   
-  .like-icon.is-liked .contour {
-    fill: var(--like-sparks-color, #ff0000);
+  .like-icon.is-liked .counter {
     transition: fill 0.3s linear 0.06s;
+    fill: var(--is-liked-counter-color);
   }
   
   .like-icon.is-liked .main-body {
